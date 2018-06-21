@@ -12,6 +12,9 @@ The process was divided into 3 parts
 3. Training and Testing the model
 
 1. Data Processing 
+    The dataet being used is the cornell movie dialogues dataset. However due to limitation of size of file being uploaded I     am unable to include that. However its open source and can be fount at
+    http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html
+ 
   i. The first step is to map each input sentence to it's unique id which basicaly is the first element in each line.
   ii.The next step includes creating a huge list of conversations where we consider the id's of each sentence we obtained in       step i.
   iii.Our chatbot will be trained on questions and their answers so we create 2 different lists namely questions and               ansswers.
