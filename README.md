@@ -3,8 +3,8 @@ Copyright of code and data is owned by respective authorities. Strictly for lear
 
 
 # Tensorflow_Chatbot
-This repository contains the code for a general purpose chatbot built using the seq2seq model. It is a well commented code , hence all the required explanation has been  provided in good detail.
-The chatbot can also be trained on other data as required.
+This repository contains the code for a general purpose chatbot built using the seq2seq model.The explanation has been  provided in good detail in the code.
+The chatbot can also be trained on other data.
 
 The process was divided into 3 parts 
 1. Data preprocessing
@@ -12,7 +12,7 @@ The process was divided into 3 parts
 3. Training and Testing the model
 
 1. Data Processing 
-    The dataet being used is the cornell movie dialogues dataset. However due to limitation of size of file being uploaded I     am unable to include that. However its open source and can be fount at
+    The datset used here is the cornell movie dialogues dataset. However due to file size limitations I was unable to include that. However its open source and could be found at:
     http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html
  
   i. The first step is to map each input sentence to it's unique id which basicaly is the first element in each line.
